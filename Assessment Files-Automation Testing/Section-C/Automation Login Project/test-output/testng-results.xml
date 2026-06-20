@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-11T17:42:37 IST" name="LoginAutomationSuite" finished-at="2026-06-11T17:43:13 IST" duration-ms="35694">
+    <groups>
+    </groups>
+    <test started-at="2026-06-11T17:42:37 IST" name="LoginTests" finished-at="2026-06-11T17:43:13 IST" duration-ms="35694">
+      <class name="Tests.LogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LogoutTest@3d285d7e]" started-at="2026-06-11T17:43:07 IST" name="setup" finished-at="2026-06-11T17:43:11 IST" duration-ms="3307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logoutValidation()[pri:0, instance:Tests.LogoutTest@3d285d7e]" started-at="2026-06-11T17:43:11 IST" name="logoutValidation" finished-at="2026-06-11T17:43:12 IST" duration-ms="1842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutValidation -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Tests.LogoutTest@3d285d7e]" started-at="2026-06-11T17:43:12 IST" name="CloseBrowser" finished-at="2026-06-11T17:43:13 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Tests.LogoutTest -->
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@3c41ed1d]" started-at="2026-06-11T17:42:38 IST" name="setup" finished-at="2026-06-11T17:42:55 IST" duration-ms="16682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String,boolean)[pri:0, instance:Tests.LoginTest@3c41ed1d]" started-at="2026-06-11T17:42:55 IST" name="loginValidation" data-provider="loginData" finished-at="2026-06-11T17:42:58 IST" duration-ms="3048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Tests.LoginTest@3c41ed1d]" started-at="2026-06-11T17:42:58 IST" name="CloseBrowser" finished-at="2026-06-11T17:42:58 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@3c41ed1d]" started-at="2026-06-11T17:42:58 IST" name="setup" finished-at="2026-06-11T17:43:00 IST" duration-ms="2349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String,boolean)[pri:0, instance:Tests.LoginTest@3c41ed1d]" started-at="2026-06-11T17:43:00 IST" name="loginValidation" data-provider="loginData" finished-at="2026-06-11T17:43:01 IST" duration-ms="1262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wronguser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Tests.LoginTest@3c41ed1d]" started-at="2026-06-11T17:43:01 IST" name="CloseBrowser" finished-at="2026-06-11T17:43:02 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@3c41ed1d]" started-at="2026-06-11T17:43:02 IST" name="setup" finished-at="2026-06-11T17:43:04 IST" duration-ms="2165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String,boolean)[pri:0, instance:Tests.LoginTest@3c41ed1d]" started-at="2026-06-11T17:43:04 IST" name="loginValidation" data-provider="loginData" finished-at="2026-06-11T17:43:07 IST" duration-ms="3226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Tests.LoginTest@3c41ed1d]" started-at="2026-06-11T17:43:07 IST" name="CloseBrowser" finished-at="2026-06-11T17:43:07 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- LoginTests -->
+  </suite> <!-- LoginAutomationSuite -->
+</testng-results>
